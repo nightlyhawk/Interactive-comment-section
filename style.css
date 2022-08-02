@@ -1,0 +1,340 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    /* max-width: 1440px; */
+}
+body
+{
+    background-color: hsl(223, 19%, 93%);
+    font-weight: 400, 500, 700;
+    font-size: 14px;
+}
+.container
+{
+    margin: auto;
+    width: 60%;
+    padding-top: 5px;
+}
+.container2
+{
+    margin: auto;
+    width: 60%;
+    padding-top: 5px;
+}
+.comment
+{
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: white;
+    width: 486px;
+    height: 117px;
+
+}
+.textspc
+{
+    width: 321px;
+    height: 76px;
+    border: 1px solid hsl(223, 19%, 93%);
+    border-radius: 6px;
+    box-shadow: none;
+    position: absolute;
+    left: 330px;
+    top: 32px;
+    text-justify: auto;
+    resize: none;
+}
+.textspc1
+{
+    width: 258px;
+    height: 96px;
+    border: 1px solid hsl(223, 19%, 93%);
+    border-radius: 6px;
+    box-shadow: none;
+    position: absolute;
+    left: 327px;
+    bottom: -214px;
+    text-justify: auto;
+    resize: none;
+}
+input
+{
+   height: 0;
+}
+#textspc ::placeholder
+{
+    vertical-align: text-top;
+}
+#sendbtn
+{
+    background-color: hsl(238, 40%, 52%);
+    border-radius: 4.5px;
+    border: 1px solid hsl(238, 40%, 52%);
+    height: 40px;
+    width: 80px;
+    color: white;
+    float: right;
+    margin-right: 19px;
+    margin-top: 19px;
+}
+.reply
+{
+    background-color: white;
+    width: 486px;
+    height: 155px;
+    border-radius: 5px;
+    position: relative;
+    right: 261px;
+    
+}
+.reply2
+{
+    background-color: white;
+    width: 424px;
+    height: 155px;
+    border-radius: 5px;
+    
+}
+.reply2i
+{
+    background-color: white;
+    width: 424px;
+    height: 141px;
+    border-radius: 5px;
+    
+}
+.reply3
+{
+    background-color: white;
+    width: 424px;
+    height: 155px;
+    border-radius: 5px;
+    position: relative;
+    right: 1px;
+    
+}
+#secondsection
+{
+    width: 0px;
+}
+.reply4
+{
+    background-color: white;
+    width: 486px;
+    height: 155px;
+    border-radius: 5px;
+    position: relative;
+    right: 164px;
+    
+}
+.replybox
+{
+    width: 300px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 80px;
+    position: relative;
+    top: -21px;
+    
+}
+.plusbtn
+{
+   width: 30px;
+   height: 27px;
+   background-color: hsl(223, 19%, 93%);
+   border-radius: 3px;
+   border: none;
+   color: hsl(238, 40%, 52%);
+   position: relative;
+    top: 25px;
+    left: 24px;
+}
+.count
+{
+  width: 30px;
+  height: 40px;
+  border: none;
+  color: hsl(238, 40%, 52%);
+  background-color: hsl(223, 19%, 93%);
+  position: relative;
+  top: 53px;
+  left: -9.5px;
+
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.minusbtn
+{
+    width: 30px;
+    height: 27px;
+    background-color: hsl(223, 19%, 93%);
+    border-radius: 3px;
+    box-shadow: none;
+    border: none;
+    color: hsl(238, 40%, 52%);
+    position: relative;
+    top: 79px;
+    left: -44px;
+}
+#profile
+{
+    height: 40px;
+}
+#profileS
+{
+    height: 35px;
+    position: absolute;
+    top: 35px;
+    left: 284px;
+}
+.ptags
+{
+    text-align: left
+}
+#replybtn
+{
+    text-decoration: none;
+    position: relative;
+    bottom: 71px;
+    left: 310px;
+    color: hsl(238, 40%, 52%);
+}
+#replybtn2
+{
+    text-decoration: none;
+    position: relative;
+    bottom: 71px;
+    left: 276px;
+    color: hsl(238, 40%, 52%);
+}
+#editbtn
+{
+    text-decoration: none;
+    position: relative;
+    bottom: 71px;
+    left: 226px;
+    color: hsl(238, 40%, 52%);;
+}
+#delbtn
+{
+    text-decoration: none;
+    position: relative;
+    bottom: 71px;
+    left: 225px;
+    color: hsl(358, 79%, 66%);
+}
+.name
+{
+    position: absolute;
+    top: 9px;
+    left: 49px
+}
+#time
+{
+    color: hsl(223, 19%, 93%);
+}
+.txt1
+{
+    line-height: 21px;
+    word-spacing: 1px;
+}
+#h11
+{
+   position: relative;
+   top: -12px;
+}
+#p11
+{
+    position: relative;
+    top: 13px;
+}
+.cancelbtn, .deletebtn
+{
+    width: 50%;
+    border-radius: 7px;
+    border: none;
+    color: white;
+}
+.cancelbtn
+{
+    background-color: gray;
+    height: 37px;
+    position: relative;
+    left: -5px;
+    top: 36px;
+    
+}
+.deletebtn
+{
+    background-color: hsl(358, 79%, 66%);
+    height: 37px;
+    position: relative;
+    left: 131px;
+    top: -1px;
+}
+.containerm
+{
+    padding: 34px;
+    text-align: left;
+    height: 148px;
+}
+.modal
+{
+ display: none;
+ position: fixed;
+ z-index: 1;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ overflow: auto;
+ background-color: #474e5d;
+ background: rgba(0, 0, 0, 0.6);
+ padding-top: 50px;
+}
+.modal-content
+{
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 24%;
+  border-radius: 9px;
+}
+hr
+{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+.close
+{
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover, .close:focus
+{
+    color: #f44336;
+    cursor: pointer;
+}
+.clearfix::after
+{
+  content: "";
+  clear: both;
+  display: table;
+  position: relative;
+  top: 2px;
+}
+@media screen and (max-width: 300px)
+{
+    .cancelbtn, .deletebtn 
+    {
+        width: 100%;
+    }
+}

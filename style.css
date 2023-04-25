@@ -22,18 +22,25 @@ body
     width: 60%;
     padding-top: 5px;
 }
+
+.container3
+{
+    margin-left: 12%;
+    width: 70%;
+    padding-top: 5px;
+}
 .comment
 {
     border: 1px solid white;
     border-radius: 6px;
     background-color: white;
-    width: 486px;
+    width: 72%;
     height: 117px;
 
 }
 .textspc
 {
-    width: 321px;
+    width: 30%;
     height: 76px;
     border: 1px solid hsl(223, 19%, 93%);
     border-radius: 6px;
@@ -90,7 +97,7 @@ input
 .reply2
 {
     background-color: white;
-    width: 424px;
+    width: 72%;
     height: 155px;
     border-radius: 5px;
     
@@ -98,7 +105,7 @@ input
 .reply2i
 {
     background-color: white;
-    width: 424px;
+    width: 86%;
     height: 141px;
     border-radius: 5px;
     
@@ -129,7 +136,7 @@ input
 }
 .replybox
 {
-    width: 300px;
+    width: 75%;
     height: 100px;
     margin-top: 10px;
     margin-left: 80px;
@@ -147,7 +154,7 @@ input
    color: hsl(238, 40%, 52%);
    position: relative;
     top: 25px;
-    left: 24px;
+    left: 20px;
 }
 .count
 {
@@ -177,13 +184,13 @@ input[type=number]::-webkit-outer-spin-button{
     color: hsl(238, 40%, 52%);
     position: relative;
     top: 79px;
-    left: -44px;
+    left: -40px;
 }
 #profile
 {
     height: 40px;
 }
-#profileS
+#prof
 {
     height: 35px;
     position: absolute;
@@ -194,13 +201,14 @@ input[type=number]::-webkit-outer-spin-button{
 {
     text-align: left
 }
-#replybtn
+.replybtn
 {
     text-decoration: none;
     position: relative;
-    bottom: 71px;
-    left: 310px;
+    left: 92%;
+    bottom: 84px;
     color: hsl(238, 40%, 52%);
+    cursor: pointer;
 }
 #replybtn2
 {
@@ -209,6 +217,7 @@ input[type=number]::-webkit-outer-spin-button{
     bottom: 71px;
     left: 276px;
     color: hsl(238, 40%, 52%);
+    cursor: pointer;
 }
 #editbtn
 {
@@ -234,7 +243,9 @@ input[type=number]::-webkit-outer-spin-button{
 }
 #time
 {
-    color: hsl(223, 19%, 93%);
+    color: hsl(228, 3%, 32%);
+    position: relative;
+    left: 10%;
 }
 .txt1
 {
